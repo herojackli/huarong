@@ -9,6 +9,27 @@
             "style": {
                 "navigationBarTitleText": "uni-app"
             }
+        }, {
+            "path": "pages/report/report",
+            "style": {
+                "navigationBarTitleText": "举报",
+                "enablePullDownRefresh": false,
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false //去掉app+h5顶部导航
+                }
+
+            }
+
+        }
+        ,{
+            "path" : "pages/report/submit_a _report",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
         }
     ],
     "globalStyle": {
