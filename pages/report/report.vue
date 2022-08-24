@@ -65,17 +65,16 @@
     }
 
     .head {
-        margin: 10px;
+        margin: 0.625rem;
         color: #fff;
         display: flex;
 
         .goBack {
-            padding-left: 10px;
+            padding-left: 0.625rem;
 
             image {
-                width: 15px;
-                height: 15px;
-
+                width: 0.9375rem;
+                height: 0.9375rem;
             }
         }
 
@@ -84,7 +83,6 @@
             margin-left: 40%;
         }
     }
-
 
     .type {
         text-align: center;
@@ -99,13 +97,10 @@
     }
 
     .content {
-        // margin-top: 0.625rem ;
         padding-top: 1.25rem;
         background-color: #110F1C;
 
-        // background-image: url('@/static/report/bianzu 4.png');
         .content_text {
-            // padding: 0.625rem 0.625rem;
             margin: 0.625rem 1.25rem;
             padding: 0.3125rem 0;
             height: 1.875rem;
@@ -120,6 +115,5 @@
         .conten_last {
             border-bottom: none;
         }
-
     }
 </style>
