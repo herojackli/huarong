@@ -25,13 +25,21 @@
                 "navigationStyle": "custom"
             }
 
+        }, {
+            "path": "pages/search/search",
+            "style": {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+
         }
     ],
     "globalStyle": {
         "navigationBarTextStyle": "black",
         "navigationBarTitleText": "花荣",
         "navigationBarBackgroundColor": "#F8F8F8",
-        "backgroundColor": "#F8F8F8"
+        "backgroundColor": "#F8F8F8",
+        "navigationStyle": "custom"
     },
     "uniIdRouter": {}
 }
